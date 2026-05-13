@@ -9,9 +9,9 @@ e retorna uma resposta estruturada em JSON usando a API da OpenAI.
 - Conta na OpenAI com chave de API
 
 ## Instalação
-
+```bash
 pip install openai PyPDF2 python-dotenv
-
+```
 ## Configuração
 
 Crie um arquivo `.env` na raiz do projeto:
