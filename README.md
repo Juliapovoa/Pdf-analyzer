@@ -14,13 +14,17 @@ pip install openai PyPDF2 python-dotenv
 ```
 ## Configuração
 
-Crie um arquivo `.env` na raiz do projeto:
+No Google Colab, rode isso numa célula antes do script principal:
 
-OPENAI_API_KEY=sua_chave_aqui
+```python
+with open(".env", "w") as f:
+    f.write("OPENAI_API_KEY=sua_chave_aqui")
+```
 
 ## Como executar
 
 O script foi desenvolvido para rodar no Google Colab.
+Crie o `.env` com sua chave conforme a seção acima
 Abra o arquivo `analyzer.py` no Colab e execute célula por célula.
 Ao rodar, ele vai pedir para fazer upload do PDF e digitar a pergunta.
 
