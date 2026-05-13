@@ -5,9 +5,6 @@ from dotenv import load_dotenv
 import json
 import os
 
-with open(".env", "w") as f:
-    f.write("OPENAI_API_KEY=sua_chave_aqui")
-
 load_dotenv(override=True)
 api_key = os.getenv("OPENAI_API_KEY")
 
